@@ -1,0 +1,57 @@
+
+.statistics{
+    background-color: white;
+    display: inline-block;
+    min-width: 300px;
+    box-shadow: 1px 1px 2px;
+    border-radius: 4px;
+    margin: 10px;
+    overflow: hidden;
+}
+
+.title{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.stat_list{
+    display: flex;
+    align-items: center;
+}
+
+.item{
+    color: white;
+    padding: 16px 10px;
+    flex-basis: calc(100% / 4);
+}
+
+.label,
+.percentage{
+    display: block;
+    text-align: center;
+}
+
+.percentage{
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.item:nth-child(1){
+    background-color: cadetblue;
+}
+
+.item:nth-child(2){
+    background-color: darkorchid;
+}
+
+.item:nth-child(3){
+    background-color: orange;
+}
+
+.item:nth-child(4){
+    background-color: lightseagreen;
+}
+
+.item:nth-child(5){
+    background-color: darkkhaki;
+}

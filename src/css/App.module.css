@@ -1,0 +1,20 @@
+.page{
+    background-color: gray;
+    height: '100vh';
+    display: 'flex';
+    justify-content: 'center';
+    align-items: 'center';
+    font-size: 40;
+    color: '#010101';
+
+  }
+
+  :global(li){
+    list-style: none;
+  }
+
+
+  :global(ul){
+    padding: 0;
+    margin: 0;
+  }
