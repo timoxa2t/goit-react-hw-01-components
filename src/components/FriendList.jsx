@@ -1,5 +1,6 @@
 import FriendListItem from './FriendListItem'
 import styles from "../css/FriendList.module.css"
+import PropTypes from "prop-types"
 
 export default function FriendList({friends}){
     return (
@@ -8,4 +9,8 @@ export default function FriendList({friends}){
             <FriendListItem key={id} avatar={avatar} name={name} isOnline={isOnline} styles={styles}/>
         ))}
     </ul>)
+}
+
+FriendList.propTypes = {
+    friends: PropTypes.object
 }

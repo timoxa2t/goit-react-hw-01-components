@@ -12,6 +12,7 @@ import styles from '../css/App.module.css'
 
 
 
+
 export const App = () => {
   return (
     <div className={styles.page}>
@@ -31,3 +32,4 @@ export const App = () => {
     </div>
   );
 };
+
